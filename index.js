@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
 
 })
 
-app.get("/s.json", (req, res) => {
-    res.sendfile("./s.json")
+app.get("/arduino.json", (req, res) => {
+    res.sendfile("./arduino.json")
 
 })
 
