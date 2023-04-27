@@ -26,11 +26,11 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Arduino project</title>
   </head>
   <body>
     <section>
-      Hello from Render!
+      Arduino Project
     </section>
   </body>
 </html>
