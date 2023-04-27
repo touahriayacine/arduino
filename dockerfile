@@ -12,4 +12,3 @@ RUN npm install
 COPY arduino.json ./
 COPY index.js ./
 EXPOSE 8080
-CMD [ "node", "index.js" ]
