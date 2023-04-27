@@ -4,6 +4,7 @@ const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => res.type("html").send(html));
 app.get("/arduino.json", (req, res) => res.sendFile("./arduino.json"));
+app.get("/app.json", (req, res) => res.sendFile("./app.json"));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 const html = `
